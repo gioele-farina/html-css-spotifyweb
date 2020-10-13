@@ -4,23 +4,29 @@
   box-sizing: border-box;
 }
 
+body {
+  color: white;
+}
+
 /* DEBUG:  */
 section,
 aside,
 div {
-  border: 1px solid black;
+  border: 1px solid white;
 }
 
-img {
+.principale img {
   max-width: 100px;
   height: auto;
 }
+/* fine debug  */
+
 
 /* sezione in alto upselling */
 
 #upselling {
 width: calc(100% - 230px);
-height: 90px;
+height: 70px;
 position: fixed;
 top: 0;
 left: 230px;
@@ -34,12 +40,55 @@ main {
   display: flex;
 }
 
+/* aside */
 aside {
   width: 230px;
   height: calc(100vh - 90px);
   background-color: #000000;
+  /* proprietà flex */
+  display: flex;
+  flex-direction: column;
 }
 
+aside .logo {
+  height: 70px;
+  display: flex;
+  margin-left: 15px;
+  align-items: center;
+}
+
+aside .logo img {
+  width: 75%;
+  height: auto;
+}
+
+aside .search {
+
+}
+
+aside .search img {
+  max-width: 30px;
+  margin: 0 10px 0 15px;
+}
+
+.search_home,
+.search_cerca,
+.search_libreria {
+  display: flex;
+  align-items: center;
+}
+
+aside .libreria {
+  flex-grow: 1;
+  overflow-x: auto;
+}
+
+aside .autore {
+  height: 50px;
+}
+
+
+/* principale */
 .principale {
   width: calc(100% - 230px);
   height: calc(100vh - 90px);
@@ -55,4 +104,11 @@ aside {
   bottom: 0;
   left: 0;
   background-color: #282828;
+}
+
+/* comportamento aside autore */
+@media all and (max-height: 500px) {
+  aside .autore {
+    display: none;
+  }
 }
