@@ -222,6 +222,19 @@ aside .installa_app {
 
 .player_up {
   height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.player_up .fas {
+  margin: 0 15px;
+}
+
+.player_up .far.fa-play-circle {
+  font-size: 30px;
+  margin: 0 20px;
 }
 
 .player_down {
@@ -244,6 +257,7 @@ aside .installa_app {
   background-color: #5A5A5A;
   height: 5px;
   width: 25%;
+  margin-right: 15px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
@@ -266,7 +280,7 @@ aside .installa_app {
 .volume_totale {
   background-color: #5A5A5A;
   height: 5px;
-  width: 130px;
+  width: 100px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
