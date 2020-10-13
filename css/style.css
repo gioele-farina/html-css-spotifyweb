@@ -30,8 +30,21 @@ height: 70px;
 position: fixed;
 top: 0;
 left: 230px;
+display: flex;
+justify-content: flex-end;
+align-items: center;
 /* background-color: #080B12; */
 background-color: rgba(20, 25, 34, 0.5);
+}
+
+#upselling a {
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgba(20, 25, 34, 0.5);
+  border: 1px solid white;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
 }
 
 /*                                   Sezione main */
