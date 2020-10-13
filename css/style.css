@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* DEBUG:  */
+section,
+aside,
+div {
+  border: 1px solid black;
+}
+
+/* sezione in alto upselling */
+
+#upselling {
+width: calc(100% - 230px);
+height: 90px;
+position: fixed;
+top: 0;
+left: 230px;
+background-color: #080B12;
+}
+
+/* Sezione main */
+
+main {
+  display: flex;
+}
+
+aside {
+  width: 230px;
+  height: calc(100vh - 90px);
+  background-color: #000000;
+}
+
+.principale {
+  width: calc(100% - 230px);
+  height: calc(100vh - 90px);
+  background-color: #141922;
+}
+
+/* sezione player inferiore */
+
+#player_nav {
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #282828;
+}
