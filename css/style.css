@@ -84,17 +84,19 @@ aside .logo img {
 }
 
 /* aside search */
-aside .search {
-
+.search_home,
+.search_cerca,
+.search_libreria {
+  border-left: 3px solid black;
 }
 
 aside .search img {
   max-width: 30px;
-  margin: 0 10px 0 12px;
+  margin: 0 10px 0 10px;
 }
 
-.search_home {
-  border-left: 3px solid #ADFF2F;
+ .active_aside {
+  border-color: #ADFF2F;
 }
 
 /* aside libreria */
