@@ -11,6 +11,11 @@ div {
   border: 1px solid black;
 }
 
+img {
+  max-width: 100px;
+  height: auto;
+}
+
 /* sezione in alto upselling */
 
 #upselling {
@@ -19,7 +24,8 @@ height: 90px;
 position: fixed;
 top: 0;
 left: 230px;
-background-color: #080B12;
+/* background-color: #080B12; */
+background-color: rgba(20, 25, 34, 0.5);
 }
 
 /* Sezione main */
