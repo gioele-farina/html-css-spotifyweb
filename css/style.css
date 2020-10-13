@@ -12,7 +12,7 @@ body {
 section,
 aside,
 div {
-  /* border: 1px solid pink; */
+  border: 1px solid pink;
 }
 
 .principale img {
@@ -178,7 +178,7 @@ aside .installa_app {
   background-color: #141922;
 }
 
-/* sezione player inferiore */
+/*                             sezione player inferiore */
 
 #player_nav {
   height: 90px;
@@ -187,6 +187,55 @@ aside .installa_app {
   bottom: 0;
   left: 0;
   background-color: #282828;
+  display: flex;
+}
+
+.in_riproduzione {
+  display: flex;
+}
+
+.in_riproduzione_cover {
+  height: 90px;
+  width: 90px;
+  padding: 15px;
+}
+
+.in_riproduzione_cover img {
+  max-width: 100%;
+}
+
+.in_riproduzione_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.preferiti {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.controlli {
+  display: flex;
+  align-items: center;
+}
+
+.volume_attuale {
+  background-color: #C1C1C1;
+  height: 5px;
+  width: 35px;
+  margin-left: 15px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.volume_totale {
+  background-color: #5A5A5A;
+  height: 5px;
+  width: 130px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 /* comportamento aside autore */
