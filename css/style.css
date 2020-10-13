@@ -225,16 +225,16 @@ aside .installa_app {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .player_up .fas {
-  margin: 0 15px;
+  margin: 0 10px;
 }
 
 .player_up .far.fa-play-circle {
-  font-size: 30px;
-  margin: 0 20px;
+  font-size: 25px;
+  margin: 0 15px;
 }
 
 .player_down {
