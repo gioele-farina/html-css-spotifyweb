@@ -216,6 +216,39 @@ aside .installa_app {
   flex-wrap: wrap;
 }
 
+.player {
+  flex-grow: 1;
+}
+
+.player_up {
+  height: 50%;
+}
+
+.player_down {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avanzamento_attuale {
+  background-color: #C1C1C1;
+  height: 5px;
+  width: 10%;
+  margin-left: 15px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.avanzamento_totale {
+  background-color: #5A5A5A;
+  height: 5px;
+  width: 25%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
 .controlli {
   display: flex;
   align-items: center;
