@@ -228,13 +228,17 @@ aside .installa_app {
   background: #ADFF2F;
 }
 
-/* recently played */
+/* albums */
 
 .recently_played,
 .creato_per_te,
 .artisti_popolari {
   display: flex;
   text-align: center;
+}
+
+.artisti_popolari .principale_cover img {
+  border-radius: 50%;
 }
 
 .principale_album {
