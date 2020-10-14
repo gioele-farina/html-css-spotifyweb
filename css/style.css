@@ -63,7 +63,7 @@ aside {
   flex-direction: column;
 }
 
-aside .logo {
+aside .logo  a{
   height: 70px;
   display: flex;
   margin-left: 15px;
@@ -90,6 +90,14 @@ aside .logo img {
   border-left: 3px solid black;
 }
 
+.search a {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
 aside .search img {
   max-width: 30px;
   margin: 0 10px 0 10px;
@@ -114,9 +122,16 @@ aside .libreria ul li{
   padding: 10px 0;
 }
 
-.aggiungi_alla_tua_libreria {
+aside ul li a {
+  text-decoration: none;
+  color: #A3A3A3;
+}
+
+.aggiungi_alla_tua_libreria a {
   display: flex;
   align-items: center;
+  text-decoration: none;
+  color: #A3A3A3;
 }
 
 .button_add {
@@ -140,10 +155,12 @@ aside .installa_app {
   margin: 0 10px 0 15px;
 }
 
-.autore_up {
+.autore_up a {
   padding: 10px 0;
   display: flex;
   align-items: center;
+  text-decoration: none;
+  color: #A3A3A3;
 }
 
 .installa_app_img {
@@ -173,7 +190,8 @@ aside .installa_app {
 
 /*                             principale */
 .principale {
-  width: calc(100% - 230px);
+  /* width: calc(100% - 230px); */
+  flex-grow: 1;
   height: calc(100vh - 90px);
   background-color: #141922;
 }
@@ -186,6 +204,7 @@ aside .installa_app {
   position: fixed;
   bottom: 0;
   left: 0;
+  z-index: 100;
   background-color: #282828;
   display: flex;
 }
@@ -265,6 +284,7 @@ aside .installa_app {
 
 .controlli {
   display: flex;
+  flex-shrink: 0;
   align-items: center;
 }
 
