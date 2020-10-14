@@ -236,6 +236,7 @@ aside .installa_app {
 
 .recently_played_album {
   padding: 10px;
+  max-width: 200px;
 }
 
 .recently_played_cover {
