@@ -469,7 +469,7 @@ aside ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   color: #A3A3A3;
   margin-left: 5px;
 }
@@ -625,6 +625,10 @@ aside ul li a:hover {
   .principale_album {
     max-width: calc(100% / 2);
   }
+
+  .preferiti {
+    flex-direction: column;
+  }
 }
 
 /* xs */
@@ -639,5 +643,27 @@ aside ul li a:hover {
 
   .principale_album {
     max-width: calc(100% / 2);
+  }
+
+  .in_riproduzione {
+    align-items: center;
+  }
+
+  .in_riproduzione_cover {
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+  }
+
+  .player_up {
+    font-size: 10px;
+  }
+
+  .player_down {
+    font-size: 13px;
+  }
+
+  .controlli {
+    flex-wrap: wrap;
   }
 }
