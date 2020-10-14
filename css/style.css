@@ -15,10 +15,6 @@ div {
   border: 1px solid pink;
 }
 
-.principale img {
-  max-width: 100px;
-  height: auto;
-}
 /* fine debug  */
 
 
@@ -229,6 +225,27 @@ aside .installa_app {
 
 .nav_main_active {
   background: #ADFF2F;
+}
+
+/* recently played */
+
+.recently_played {
+  display: flex;
+  text-align: center;
+}
+
+.recently_played_album {
+  padding: 10px;
+}
+
+.recently_played_cover {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.recently_played_cover img {
+  max-width: 100%;
+  height: auto;
 }
 
 /*                             sezione player inferiore */
