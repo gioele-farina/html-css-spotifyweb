@@ -60,6 +60,7 @@ aside {
   background-color: #000000;
   /* proprietà flex */
   display: flex;
+  flex-shrink: 0;
   flex-direction: column;
 }
 
@@ -194,7 +195,31 @@ aside .installa_app {
   flex-grow: 1;
   height: calc(100vh - 90px);
   background-color: #141922;
+  padding-top: 70px;
 }
+
+.nav_main ul {
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px 0;
+  width: 100%;
+}
+
+.nav_main li {
+  padding: 0 8px;
+  flex-shrink: 0;
+}
+
+.nav_main ul li a {
+  text-decoration: none;
+  color: #A3A3A3;
+}
+
+
 
 /*                             sezione player inferiore */
 
