@@ -283,6 +283,7 @@ aside .installa_app {
   height: auto;
   min-width: 100px;
   min-height: 100px;
+  position: relative;
 }
 
 .principale_cover img {
@@ -306,16 +307,29 @@ aside .installa_app {
 }
 
 .principale h3 {
-
+  font-size: 15px;
 }
 
 .principale h4 {
-
+  font-size: 12px;
+  color: #A3A3A3;
+  margin-top: 5px;
 }
 
 .principale p {
   padding-left: 10px;
   margin: 10px 0;
+  color: #A3A3A3;
+}
+
+/* hover sezione principale */
+
+.principale_cover .far.fa-play-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  font-size: 50px;
   color: #A3A3A3;
 }
 
