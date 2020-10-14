@@ -106,6 +106,7 @@ aside .search img {
 
  .active_aside {
   border-color: #ADFF2F;
+  color: white;
 }
 
 /* aside libreria */
@@ -147,7 +148,6 @@ aside ul li a {
   display: inline-block;
   /* margin: 0 10px 0 15px; */
 }
-
 
 /* aside installa_app  */
 aside .installa_app {
@@ -195,7 +195,7 @@ aside .installa_app {
   flex-grow: 1;
   height: calc(100vh - 90px);
   background-color: #141922;
-  padding-top: 70px;
+  padding: 70px 10px 0 15px;
 }
 
 .nav_main ul {
@@ -220,6 +220,16 @@ aside .installa_app {
 }
 
 
+.nav_main ul li div {
+  height: 3px;
+  width: 35px;
+  margin: auto;
+  /* background-color: white; */
+}
+
+.nav_main_active {
+  background: #ADFF2F;
+}
 
 /*                             sezione player inferiore */
 
