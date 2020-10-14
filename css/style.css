@@ -606,6 +606,28 @@ aside ul li a:hover {
 }
 
 /* comportamento aside e albums */
+
+/* md */
+@media all and (max-width: 980px) {
+  .recently_played,
+  .creato_per_te,
+  .artisti_popolari {
+    flex-wrap: wrap;
+  }
+
+  .principale_album {
+    max-width: calc(100% / 4);
+  }
+}
+
+/* s */
+@media all and (max-width: 768px) {
+  .principale_album {
+    max-width: calc(100% / 2);
+  }
+}
+
+/* xs */
 @media all and (max-width: 540px) {
   aside {
    display: none;
@@ -613,5 +635,9 @@ aside ul li a:hover {
 
   .aside_mobile {
     display: flex;
+  }
+
+  .principale_album {
+    max-width: calc(100% / 2);
   }
 }
