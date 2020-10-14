@@ -242,13 +242,13 @@ aside .installa_app {
 }
 
 .principale_album {
-  max-width: 200px;
+  max-width: calc(100% / 6);
   min-width: 120px;
 }
 
 .principale_cover {
-  max-width: 200px;
-  max-height: 200px;
+  width: 100%;
+  height: auto;
   min-width: 100px;
   min-height: 100px;
 }
