@@ -240,6 +240,56 @@ aside ul li a:hover {
   color: white;
 }
 
+/*                       aside mobile */
+
+.aside_mobile {
+  width: 60px;
+  height: calc(100vh - 90px);
+  background-color: #000000;
+  /* proprietà flex */
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+
+.aside_mobile .search {
+  flex-grow: 1;
+}
+
+.aside_mobile a {
+  display: flex;
+  justify-content: center;
+}
+
+.logo_small {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.aside_mobile img {
+  max-width: 60%;
+  height: auto;
+}
+
+.aside_mobile .installa_app .autore_up img {
+  width: 20px;
+  height: auto;
+}
+
+.aside_mobile .installa_app .autore {
+  display: flex;
+  justify-content: center;
+  border: 0;
+}
+
+.aside_mobile .installa_app .autore .profile_img {
+  margin: 0;
+}
+
+.aside_mobile {
+  display: none;
+}
+
 /*                             principale */
 .principale {
   /* width: calc(100% - 230px); */
@@ -552,5 +602,16 @@ aside ul li a:hover {
 @media all and (max-height: 500px) {
   aside .installa_app {
     display: none;
+  }
+}
+
+/* comportamento aside e albums */
+@media all and (max-width: 540px) {
+  aside {
+   display: none;
+  }
+
+  .aside_mobile {
+    display: flex;
   }
 }
