@@ -42,7 +42,9 @@ background-color: rgba(20, 25, 34, 0.5);
   color: white;
   padding: 10px 15px;
   border-radius: 20px;
-  margin-right: 5px;
+  margin-right: 25px;
+  font-weight: 500;
+  font-size: 13px;
 }
 
 /*                                   Sezione main */
@@ -132,6 +134,7 @@ aside .libreria {
 
 aside .libreria ul {
   list-style: none;
+  font-size: 12px;
 }
 
 aside .libreria ul li{
@@ -223,7 +226,9 @@ aside .installa_app {
 .nav_main ul {
   list-style: none;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #A3A3A3;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -246,6 +251,7 @@ aside .installa_app {
   height: 3px;
   width: 35px;
   margin: auto;
+  margin-top: 2px;
   /* background-color: white; */
 }
 
@@ -325,10 +331,26 @@ aside .installa_app {
   justify-content: center;
 }
 
+.in_riproduzione_title h5 {
+
+}
+
+.in_riproduzione_title h6 {
+  color: #A3A3A3;
+}
+
+
 .preferiti {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
+  color: #A3A3A3;
+  margin-left: 5px;
+}
+
+.preferiti * {
+  padding: 5px;
 }
 
 .player {
@@ -336,6 +358,7 @@ aside .installa_app {
 }
 
 .player_up {
+  padding-top: 10px;
   height: 50%;
   display: flex;
   justify-content: center;
@@ -353,6 +376,7 @@ aside .installa_app {
 }
 
 .player_down {
+  padding-bottom: 10px;
   height: 50%;
   display: flex;
   justify-content: center;
@@ -382,13 +406,19 @@ aside .installa_app {
   display: flex;
   flex-shrink: 0;
   align-items: center;
+  padding-right: 10px;
+  font-size: 13px;
+}
+
+.controlli .fas {
+  padding: 0 5px;
 }
 
 .volume_attuale {
   background-color: #C1C1C1;
   height: 5px;
-  width: 35px;
-  margin-left: 15px;
+  width: 30px;
+  margin-left: 5px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
@@ -396,7 +426,7 @@ aside .installa_app {
 .volume_totale {
   background-color: #5A5A5A;
   height: 5px;
-  width: 100px;
+  width: 90px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
