@@ -325,6 +325,15 @@ aside .installa_app {
 /* hover sezione principale */
 
 .principale_cover .far.fa-play-circle {
+  display: none;
+}
+
+.principale_cover:hover img {
+  filter: sepia(0.75);
+}
+
+.principale_cover:hover .far.fa-play-circle {
+  display: block;
   position: absolute;
   top: 50%;
   left: 50%;
