@@ -192,6 +192,7 @@ aside .installa_app {
   height: calc(100vh - 90px);
   background-color: #141922;
   padding: 70px 10px 0 15px;
+  overflow-x: auto;
 }
 
 .nav_main ul {
@@ -229,24 +230,37 @@ aside .installa_app {
 
 /* recently played */
 
-.recently_played {
+.recently_played,
+.creato_per_te,
+.artisti_popolari {
   display: flex;
   text-align: center;
 }
 
-.recently_played_album {
-  padding: 10px;
+.principale_album {
   max-width: 200px;
+  min-width: 120px;
 }
 
-.recently_played_cover {
+.principale_cover {
   max-width: 200px;
   max-height: 200px;
+  min-width: 100px;
+  min-height: 100px;
 }
 
-.recently_played_cover img {
-  max-width: 100%;
+.principale_cover img {
+  max-width: 90%;
   height: auto;
+}
+
+.principale_album h3,
+.principale_album h4 {
+  max-width: 200px;
+}
+
+.principale_album h4 {
+  font-size: 10px;
 }
 
 /*                             sezione player inferiore */
