@@ -42,9 +42,13 @@ background-color: rgba(20, 25, 34, 0.5);
   color: white;
   padding: 10px 15px;
   border-radius: 20px;
-  margin-right: 25px;
+  margin-right: 35px;
   font-weight: 500;
   font-size: 13px;
+}
+
+#upselling a:hover {
+  transform: scale(1.2);
 }
 
 /*                                   Sezione main */
@@ -144,6 +148,7 @@ aside .libreria ul li{
 aside ul li a {
   text-decoration: none;
   color: #A3A3A3;
+  font-weight: 600;
 }
 
 .aggiungi_alla_tua_libreria {
@@ -212,6 +217,28 @@ aside .installa_app {
  margin-right: 5px;
 }
 
+/* aside hover */
+.search_home:hover a,
+.search_cerca:hover a,
+.search_libreria:hover a {
+  color: white;
+}
+
+.aggiungi_alla_tua_libreria:hover .button_add {
+  background-color: white;
+}
+
+.aggiungi_alla_tua_libreria:hover a {
+  color: white;
+}
+
+aside ul li a:hover {
+  color: white;
+}
+
+.autore_up:hover span {
+  color: white;
+}
 
 /*                             principale */
 .principale {
@@ -340,6 +367,10 @@ aside .installa_app {
   transform: translate(-50% , -50%);
   font-size: 50px;
   color: #A3A3A3;
+}
+
+.nav_main ul li a:hover {
+  color: white;
 }
 
 /*                             sezione player inferiore */
@@ -473,6 +504,25 @@ aside .installa_app {
   width: 90px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+/* player hover */
+
+.preferiti .far:hover {
+  color: white;
+}
+
+.player_up .far.fa-play-circle:hover {
+  transform: scale(1.2);
+}
+
+.avanzamento_attuale:hover,
+.volume_attuale:hover {
+  background-color: #ADFF2F;
+}
+
+.in_riproduzione_title h6:hover {
+  text-decoration: underline;
 }
 
 /* comportamento aside autore */
