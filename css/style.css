@@ -544,6 +544,7 @@ aside ul li a:hover {
   display: flex;
   flex-shrink: 0;
   align-items: center;
+  flex-wrap: nowrap;
 }
 
 .volume_attuale {
@@ -672,5 +673,17 @@ aside ul li a:hover {
 
   .controlli {
     flex-wrap: wrap;
+    width: 110px;
+  }
+}
+
+/* xxs */
+@media all and (max-width: 420px) {
+  .in_riproduzione_cover {
+    display: none;
+  }
+
+  .in_riproduzione {
+    margin-left: 5px;
   }
 }
