@@ -527,22 +527,29 @@ aside ul li a:hover {
 }
 
 
-.controlli {
+.controlli{
   display: flex;
   flex-shrink: 0;
   align-items: center;
   padding-right: 10px;
   font-size: 13px;
+  width: 180px;
 }
 
 .controlli .fas {
   padding: 0 5px;
 }
 
+.volume {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+}
+
 .volume_attuale {
   background-color: #C1C1C1;
   height: 5px;
-  width: 30px;
+  width: 25px;
   margin-left: 5px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -551,7 +558,7 @@ aside ul li a:hover {
 .volume_totale {
   background-color: #5A5A5A;
   height: 5px;
-  width: 90px;
+  width: 70px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
