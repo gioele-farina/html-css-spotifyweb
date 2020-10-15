@@ -371,7 +371,7 @@ aside ul li a:hover {
 
 .principale_album h3,
 .principale_album h4 {
-  max-width: 200px;
+  /* max-width: 200px; */
 }
 
 .principale_album h4 {
@@ -686,6 +686,11 @@ aside ul li a:hover {
   .controlli {
     flex-wrap: wrap;
     width: 110px;
+    align-content: center;
+  }
+
+  .volume {
+    margin-top: 5px;
   }
 
   /* restringimento margini degli oggetti nel player */
@@ -715,5 +720,9 @@ aside ul li a:hover {
 @media all and (max-width: 420px) {
   .in_riproduzione_cover {
     display: none;
+  }
+
+  .principale_album {
+    max-width: calc(100%);
   }
 }
