@@ -32,6 +32,7 @@ justify-content: flex-end;
 align-items: center;
 /* background-color: #080B12; */
 background-color: rgba(20, 25, 34, 0.5);
+z-index: 999;
 }
 
 #upselling a {
@@ -613,6 +614,17 @@ aside ul li a:hover {
   }
 }
 
+/* comportamento barra superiore upselling */
+
+@media all and (max-height: 600px) {
+  #upselling {
+    display: none;
+  }
+
+  .principale {
+    padding-top: 5px;
+  }
+}
 /* comportamento aside e albums */
 
 /* md */
@@ -685,5 +697,21 @@ aside ul li a:hover {
 
   .in_riproduzione {
     margin-left: 5px;
+  }
+
+  .player_up .fas {
+    margin: 0 5px;
+  }
+
+  .player_up .far.fa-play-circle {
+    margin: 0 8px;
+  }
+
+  .avanzamento_attuale {
+    margin-left: 3px;
+  }
+
+  .avanzamento_totale {
+    margin-right: 3px;
   }
 }
