@@ -439,6 +439,7 @@ aside ul li a:hover {
 
 .in_riproduzione {
   display: flex;
+  align-items: center;
 }
 
 .in_riproduzione_cover {
@@ -665,10 +666,7 @@ aside ul li a:hover {
     max-width: calc(100% / 2);
   }
 
-  .in_riproduzione {
-    align-items: center;
-  }
-
+/* ridimensionamento e spaziatura nel player inferiore */
   .in_riproduzione_cover {
     height: 50px;
     width: 50px;
@@ -692,8 +690,6 @@ aside ul li a:hover {
   .volume {
     margin-top: 5px;
   }
-
-  /* restringimento margini degli oggetti nel player */
 
   .in_riproduzione {
     margin-left: 5px;
