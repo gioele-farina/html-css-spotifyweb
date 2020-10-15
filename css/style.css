@@ -687,13 +687,8 @@ aside ul li a:hover {
     flex-wrap: wrap;
     width: 110px;
   }
-}
 
-/* xxs */
-@media all and (max-width: 420px) {
-  .in_riproduzione_cover {
-    display: none;
-  }
+  /* restringimento margini degli oggetti nel player */
 
   .in_riproduzione {
     margin-left: 5px;
@@ -713,5 +708,12 @@ aside ul li a:hover {
 
   .avanzamento_totale {
     margin-right: 3px;
+  }
+}
+
+/* xxs */
+@media all and (max-width: 420px) {
+  .in_riproduzione_cover {
+    display: none;
   }
 }
