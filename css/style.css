@@ -666,6 +666,12 @@ aside ul li a:hover {
     max-width: calc(100% / 2);
   }
 
+  #upselling {
+    width: calc(100% - 60px);
+    left: 60px;
+  }
+
+
 /* ridimensionamento e spaziatura nel player inferiore */
   .in_riproduzione_cover {
     height: 50px;
