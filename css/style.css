@@ -10,11 +10,11 @@ body {
 }
 
 /* DEBUG:  */
-section,
+/* section,
 aside,
 div {
-  /* border: 1px solid pink; */
-}
+  border: 1px solid pink;
+} */
 
 /* fine debug  */
 
@@ -22,17 +22,17 @@ div {
 /*                                sezione in alto upselling */
 
 #upselling {
-width: calc(100% - 230px);
-height: 70px;
-position: fixed;
-top: 0;
-left: 230px;
-display: flex;
-justify-content: flex-end;
-align-items: center;
-/* background-color: #080B12; */
-background-color: rgba(20, 25, 34, 0.5);
-z-index: 999;
+  width: calc(100% - 230px);
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 230px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* background-color: #080B12; */
+  background-color: rgba(20, 25, 34, 0.5);
+  z-index: 999;
 }
 
 #upselling a {
@@ -88,15 +88,10 @@ aside .logo img {
   display: flex;
   align-items: center;
   font-weight: 500;
-}
-
-/* aside search */
-.search_home,
-.search_cerca,
-.search_libreria {
   border-left: 3px solid black;
 }
 
+/* aside search */
 .search_cerca {
   margin: 5px 0;
 }
@@ -111,20 +106,18 @@ aside .logo img {
 }
 
 .active_aside {
- border-color: #ADFF2F;
- color: white;
+  border-color: #ADFF2F;
+  color: white;
 }
 
 .active_aside a {
- color: white;
+  color: white;
 }
 
 aside .search img {
   max-width: 30px;
   margin: 0 10px 0 10px;
 }
-
-
 
 /* aside libreria */
 aside .libreria {
@@ -207,15 +200,15 @@ aside .installa_app {
 }
 
 .autore .profile_img {
- width: 30px;
- height: 30px;
- border-radius: 50%;
- background-color: #808080;
- display: inline-block;
- background-image: url(../img/profile.svg);
- background-position: center;
- background-size: contain;
- margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #808080;
+  display: inline-block;
+  background-image: url(../img/profile.svg);
+  background-position: center;
+  background-size: contain;
+  margin-right: 5px;
 }
 
 /* aside hover */
@@ -293,7 +286,6 @@ aside ul li a:hover {
 
 /*                             principale */
 .principale {
-  /* width: calc(100% - 230px); */
   flex-grow: 1;
   height: calc(100vh - 90px);
   background-color: #141922;
@@ -324,13 +316,11 @@ aside ul li a:hover {
   color: #A3A3A3;
 }
 
-
 .nav_main ul li div {
   height: 3px;
   width: 35px;
   margin: auto;
   margin-top: 2px;
-  /* background-color: white; */
 }
 
 .nav_main_active {
@@ -471,7 +461,6 @@ aside ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* flex-wrap: wrap; */
   color: #A3A3A3;
   margin-left: 5px;
 }
@@ -626,6 +615,7 @@ aside ul li a:hover {
     padding-top: 5px;
   }
 }
+
 /* comportamento aside e albums */
 
 /* md */
